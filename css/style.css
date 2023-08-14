@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*  */
+/* .left-side{
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 999999999999999999;
+}
+
+.side{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+#close{
+    top: 30px;
+    right: 30px;
+    font-size: 36px;
+    transition: all .5s;
+    color: white;
+}
+
+#close:hover{
+    color: red;
+}
+
+header ul li a{
+    font-size: 25px;
+    padding: 20px 32px 20px 0px;
+    display: block;
+    transition: all .5s;
+}
+
+header ul li a:hover {
+    color: red !important;
+} */
+
+/* .open{
+    top: 50%;
+    left: 10px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+} */
+
+
+
+/*  */
+
+/* header{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 87vh;
+}
+
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+.home-content{
+    z-index: 9999999;
+    color: white;
+}
+
+.home-content h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.home-content p{
+    font-size: 16px;
+    font-weight: 400;
+} */
+
+
+
+#Home {
+    width: 100%;
+    height: 660px;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+#leftMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999999999999999999999;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+
+
+
+#Home h2 {
+    margin-top: 200px;
+
+}
+
+
+
+
+#Home h2,
+#home p{
+    text-align: center;
+
+}
+
+
+
+
+.sidenav {
+    background-color: #414658;
+}
+
+
+
+
+.sidenav a:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+.sidenav .closeBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#home-content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+#home-content h2 {
+    font-size: 60px;
+}
+
+.openNav{
+    font-size: 30px;
+}
+
+
+
+
+
+
+/* ---------- */
+
+.singers {
+    margin-top: 13vh;
+    margin-bottom: 13vh;
+}
+
+.singers button {
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.content {
+    background-color: #ccc;
+}
+
+
+
+/* ----------- */
+
+.join-us {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.join-us .container {
+    z-index: 99999 !important;
+    padding: 100px 0px !important;
+
+}
+
+.col-md-3 div {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 50px;
+}
+
+.join-us span {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* --------------- */
+
+footer {
+    margin-top: 100px;
+}
+
+form span {
+    color: red;
+}
+
+.red {
+    color: red;
+}
+
+#icon,
+#details-icon,
+.icons p,
+.footer-content p,
+.footer-title p {
+    color: gray;
+}
+
+#icon {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: solid 1px gray;
+    padding: 5px;
+}
+
+#icon:hover {
+    background-color: red;
+    color: white;
+}
+
+.footer-title h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #444;
+}
+
+.footer-content h3 {
+    font-size: 18px;
+    font-weight: 900;
+    color: #444;
+}
